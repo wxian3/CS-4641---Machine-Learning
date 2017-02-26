@@ -1,0 +1,125 @@
+#######################################################################################
+# README FILE
+# Machine Learning
+# Assignment 2
+#
+# After completing the assignment, fill in this README file.  It asks you to duplicate
+# your answer to several questions.  Be certain that your answers in this README file
+# (which will be used for auto-grading) match the answers in your PDF writeup.
+#
+# This README file is formatted in YAML to allow it to be machine readable.  Please
+# be very careful with how you edit it, being careful to following the formatting.
+# Make certain not to change any text in all UPPERCASE.  After editing, you can make 
+# certain that your README file follows proper YAML syntax by running it through an
+# online YAML checker, such as http://yaml-online-parser.appspot.com/
+# 
+# The most frequent error is multi-line strings, such as "SOURCESCONSULTED" and 
+# "FEEDBACK_ERRORS".  Make certain that the previous line ends with a | followed by a 
+# newline.  Then, make certain that the subsequent lines are indented one level in 
+# (4 spaces).  This sounds complex, but just follow the existing format of this file.
+# If you run into any problems that you can't fix easily in listing your sources or 
+# providing feedback on the assignment, just include your multi-line string answers to
+# these parts as comments.  Everything else (all simple one-word or numeric answers) must
+# be properly formatted YAML.
+#######################################################################################
+
+# Personal information
+FIRSTNAME: Wenqi
+LASTNAME:  Xian
+GTACCOUNT: wxian3
+GTID:      903075649
+
+# List all sources of help that you consulted while completing this assignment 
+# (other students, colleagues, textbooks, websites, etc.).  This includes anyone you 
+# briefly discussed the homework with.  If you received help from the following sources, 
+# you do not need to cite it: course instructor, course teaching assistants, course 
+# lecture notes, course textbooks or other readings.
+# 
+# If you didn't receive help from anyone, write "none".
+
+SOURCESCONSULTED: |
+    While completing the assignment, I consulted the following sources: 
+    Jon
+
+
+ 
+####################################################################################### 
+# Answers to Problem 2:  Fitting an SVM by hand
+#
+# Please list your final answers below for auto-grading.
+#######################################################################################
+
+# Problem 2b: what is the value of the margin  (only your final numeric answer)
+PROB_SVMBYHAND_MARGIN: 2.83
+
+# Problem 2d: what is the value of w_0  (only your final numeric answer)
+PROB_SVMBYHAND_W0: -1
+
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 2.3:  Analysis of the regularization parameter
+#######################################################################################
+
+# Copy and paste your brief paragraph describing the effect of the regularization 
+# parameter from your PDF.
+LOGREGIMPLEMENTATION_REGULARIZATION_ANALYSIS:
+As Lambda increases, the theta is regularized since lambda penalizes those large values of theta. It is biased towards a much simpler model.  
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 3.4:  Effect of Kernel Parameters
+#######################################################################################
+
+# Copy and paste your brief paragraph describing the effect of varying the kernel  
+# parameters and C from your PDF.
+SVM_KERNELPARAMETEREFFECTS:
+
+Polynomial Kernel: 
+As I increase C, it overfits the data and has a low bias and high variance.
+As I increase the degree, the model becomes more complex, and overfits the data.
+
+Gaussian Kernel:
+As I increase Gaussian Sigma, the decision boundary is expanding, and new test data is more likely to be classified to the certain category. 
+As I increase C, it overfits the data and has a low bias and high variance.
+
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 3.5:  Optimal SVM parameters
+#######################################################################################
+
+# What was the optimal value you found for C?
+SVM_OPTIMAL_C: 10
+
+# What was the optimal value you found for sigma?
+SVM_OPTIMAL_SIGMA: 10
+
+# What is the estimated accuracy for your choice of optimal parameters?
+SVM_OPTIMAL_ACCURACY: 0.9538
+
+
+ 
+ 
+ 
+#######################################################################################
+# Feedback on the Assignment
+# 
+# The following information will help us improve future versions of this assignment.
+# It is completely optional, but highly appreciated.  Please be honest.
+#######################################################################################
+
+# Approximately how many hours did it take you to complete this assignment?
+FEEDBACK_NUM_HOURS: 8
+
+# Please list any typos / errors you noticed in the assignment description or skeleton code
+FEEDBACK_ERRORS: |
+    None
+ 
+# Please describe any problems you encountered while completing this assignment
+FEEDBACK_PROBLEMS: |
+    None
+    

@@ -1,0 +1,121 @@
+#######################################################################################
+# README FILE
+# Machine Learning
+# Assignment 1
+#
+# After completing the assignment, fill in this README file.  It asks you to duplicate
+# your answers to several questions.  Be certain that your answers in this README file
+# (which may be used for auto-grading) match the answers in your PDF writeup.
+#
+# This README file is formatted in YAML to allow it to be machine readable.  Please
+# be very careful with how you edit it, being careful to following the formatting.
+# Make certain not to change any text in all UPPERCASE.  After editing, you can make 
+# certain that your README file follows proper YAML syntax by running it through an
+# online YAML checker, such as http://yaml-online-parser.appspot.com/
+# 
+# The most frequent error is multi-line strings, such as "SOURCESCONSULTED" and 
+# "FEEDBACK_ERRORS".  Make certain that the previous line ends with a | followed by a 
+# newline.  Then, make certain that the subsequent lines are indented one level in 
+# (4 spaces).  This sounds complex, but just follow the existing format of this file.
+# If you run into any problems that you can't fix easily in listing your sources or 
+# providing feedback on the assignment, just include your multi-line string answers to
+# these parts as comments.  Everything else (all simple one-word or numeric answers) must
+# be properly formatted YAML.
+#######################################################################################
+
+# Personal information
+FIRSTNAME: Wenqi
+LASTNAME:  Xian
+GTACCOUNT: wxian3
+GTID:      903075649
+
+# List all sources of help that you consulted while completing this assignment 
+# (other students, colleagues, textbooks, websites, etc.).  This includes anyone you 
+# briefly discussed the homework with.  If you received help from the following sources, 
+# you do not need to cite it: course instructor, course teaching assistants, course 
+# lecture notes, course textbooks or other readings.
+# 
+# If you didn't receive help from anyone, write "none".
+
+SOURCESCONSULTED: |
+    While completing the assignment, I consulted the following sources: 
+    Jon Balloch
+    Rudra Purohit
+
+ 
+####################################################################################### 
+# Answers to Problem 1:  Decision Tree Learning
+#
+# Please list your final answers below for auto-grading.
+#######################################################################################
+
+# Problem 1a: information gain for the outlook attribute  (only your final answer)
+DT_INFO_GAIN_OUTLOOK: 0.2467
+
+# Problem 1a: information gain for the humidity attribute  (only your final answer)
+DT_INFO_GAIN_HUMIDITY: 0.04524
+
+# Problem 1b: gain ratio for the outlook attribute  (only your final answer)
+DT_GAIN_RATIO_OUTLOOK: 0.156
+
+# Problem 1b: gain ratio for the humidity attribute  (only your final answer)
+DT_GAIN_RATIO_HUMIDITY: 0.048
+
+ 
+ 
+ 
+####################################################################################### 
+# Answers to Implementation Exercise 1.3:  Decision Trees
+#
+# Please list your final answers below for auto-grading.
+#######################################################################################
+
+# What was the mean of the unpruned decision tree's accuracies?  (only your final answer)
+SHOWDOWN_DT_TEST_ACCURACY_MEAN: 0.723361823362
+
+# What was the standard deviation of the unpruned decision tree's accuracies?  (only your final answer)
+SHOWDOWN_DT_TEST_ACCURACY_STDDEV: 0.0652564708933
+
+# What was the mean of the decision stump's accuracies?  (only your final answer)
+SHOWDOWN_DSTUMP_TEST_ACCURACY_MEAN: 0.795014245014
+
+# What was the standard deviation of the decision stump's accuracies?  (only your final answer)
+SHOWDOWN_DSTUMP_TEST_ACCURACY_STDDEV: 0.0789370469284
+
+# What was the mean of the 3-level decision tree's accuracies?  (only your final answer)
+SHOWDOWN_DT3_TEST_ACCURACY_MEAN: 0.771794871795
+
+# What was the standard deviation of the 3-level decision tree's accuracies?  (only your final answer)
+SHOWDOWN_DT3_TEST_ACCURACY_STDDEV: 0.0474459491587
+
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 2.5:  Closed form of linear regression
+#######################################################################################
+
+# Copy and paste your one-line matrix equation for computing the closed form solution
+# to linear regression (e.g., Line 171 of test_linreg_univariate.py or Line 51 of 
+# test_linreg_multivariate.py)
+LINREGIMPLEMENTATION_CLOSEDFORM: theta_closed_form = inv(X.transpose() * X) * X.transpose() * y
+ 
+ 
+ 
+#######################################################################################
+# Feedback on the Assignment
+# 
+# The following information will help us improve future versions of this assignment.
+# It is completely optional, but highly appreciated.  Please be honest.
+#######################################################################################
+
+# Approximately how many hours did it take you to complete this assignment?
+FEEDBACK_NUM_HOURS: 6
+
+# Please list any typos / errors you noticed in the assignment description or skeleton code
+FEEDBACK_ERRORS: |
+    None
+ 
+# Please describe any problems you encountered while completing this assignment
+FEEDBACK_PROBLEMS: |
+    None
